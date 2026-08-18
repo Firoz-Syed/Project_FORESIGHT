@@ -1,5 +1,7 @@
 venv/
-models/
-reports/
-data/processed/
-*.pkl
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Large ML model files
+models/baseline_random_forest.pkl
