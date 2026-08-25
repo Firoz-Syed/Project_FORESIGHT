@@ -1,0 +1,7 @@
+services:
+  foresight:
+    build: .
+    container_name: foresight-container
+    ports:
+      - "8501:8501"
+    restart: unless-stopped
